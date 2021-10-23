@@ -8,7 +8,6 @@ FIFA-Search Browser
 
 - main project [React.js](https://reactjs.org/)
 
-
 ## Getting Started
 
 > This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these instructions.
