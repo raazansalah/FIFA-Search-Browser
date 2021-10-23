@@ -41,25 +41,6 @@ $ npm i
 ```sh
 $ npm start
 ```
-- Console Commands:
-    - To read a topology from a json file and store it in memory: ```read [filename]```
-    - To write a topology from memory to a json file: ```write [topologyID] ```
-    - To delete a certain topology from memory: ```delete [topologyID]```
-    - To query all the topologies in memory: ```getTopologies ``` 
-    - To query all devices of a certain topology: ```getDevices [topologyID]```
-    - To query all devices of a certain topology that has a certain netlist node: ```getDevicesWithNetlistNode [topologyID] [netlistNodeID]```
-
-2. **Running the tests**
-
-```sh
-$ npm run test
-```
-
-3. **Running the documentation**
-
-```sh
-$ npm run doc
-```
 ### Dependencies
  - react-router-dom
  - react-apexcharts
