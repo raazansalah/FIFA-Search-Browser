@@ -1,0 +1,68 @@
+.profile-page {
+    width: 100%;
+    margin-top: 40px;
+   
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1 1;
+    
+    padding: 40px 60px 40px 70px;
+    
+}
+
+.col-2 {
+    justify-content: flex-end;
+    border-left: solid rgb(202, 202, 202) 2px;
+}
+
+.border-sp {
+    background-color: rgb(66, 128, 66);
+    color: white;
+    width: 100%;
+    padding: 12px 44px 12px 44px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.over-div {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    height: 90px;
+    color: rgb(139, 139, 139);
+}
+
+.name-header {
+    display: inline-block;
+    font-size: 24px;
+    margin-block: 0;
+    margin-inline: 0;
+    margin: 1em;
+}
+
+.btn, .btn {
+    position: absolute;
+    margin: 1em;
+    transform: translateY(50%);
+    border: none;
+    background-color: white;
+    color: rgb(139, 139, 139);
+}
+.btn-home{
+    left: 100px;
+}
+.btn-help{
+    left: 200px;
+}
+
+
