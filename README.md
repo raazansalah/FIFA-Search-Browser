@@ -7,8 +7,7 @@ FIFA-Search Browser
 ### Built with
 
 - main project [React.js](https://reactjs.org/)
-- Unit testing: [jest](https://jestjs.io/).
-- Function documentation: [typedoc](https://typedoc.org).
+
 
 ## Getting Started
 
