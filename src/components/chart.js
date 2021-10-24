@@ -12,6 +12,9 @@ class ApexChart extends React.Component {
         
         options: {
           chart: {
+            toolbar:{
+              show:false,
+            },
             height: 450,
             type: 'radar',
            

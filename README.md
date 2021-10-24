@@ -1,10 +1,11 @@
-FIFA-Search Browser
+# FIFA-Search Browser
 
 ## About The Project
+> Fifa Search Browser for searching for a specific player to see information about him, You can search for a player by **"Name,Age,Nationality,Position and Prefered Foot"**
 
->    
+   
 
-### Built with
+## Built with
 
 - main project [React.js](https://reactjs.org/)
 

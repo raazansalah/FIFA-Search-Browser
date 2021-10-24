@@ -35,8 +35,8 @@ export const PlayerProfile = () => {
                 </div>
                 <div className="flex-item col-2">
                     <div className="over-div">
-                        <span className="border-sp">Overall-{playerData[id - 1].Overall}</span>
-                        <span className="border-sp">Potential-80</span>
+                        <span className="border-sp">Overall{playerData[id - 1].Overall}</span>
+                        <span className="border-sp">Potential80</span>
                     </div>
                     <div >
                         <p> Age <strong>{selectedPlayer.Age}</strong></p>
