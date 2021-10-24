@@ -18,13 +18,13 @@
 1. **_Clone the repository_**
 
 ```sh
-git clone git@github.com:raazansalah/FC-Statdium-Assigment.git
+git clone git@github.com:raazansalah/FIFA-Search-Browser.git
 ```
 
 2. **_Navigate to repository directory_**
 
 ```sh
-$ cd FC-Statdium-Assigment
+$ cd FIFA-Search-Browser
 ```
 
 3. **_Install dependencies_**
