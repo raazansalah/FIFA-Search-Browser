@@ -26,7 +26,7 @@ class ApexChart extends React.Component {
             tickAmount:10,
             
           },
-          colors:['#ff30ba'],
+          colors:['#f64762'],
           stroke: {
             show: true,
             width: 3, 
