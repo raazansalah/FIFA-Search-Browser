@@ -27,8 +27,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
     padding: 4px 24px 4px 24px;
     margin-bottom: 5px;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 input:focus {
@@ -41,6 +40,7 @@ input:focus {
     border: rgb(177, 177, 177) solid 0.5px;
     color: rgb(0, 0, 0);
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
 .player-data-item {
