@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,281;1,300&display=swap');
 .profile-page {
     width: 100%;
-    margin-top: 40px;
-   
+    margin-top: 4px;
+    font-family: 'Raleway';
+    
 }
+
 
 .flex-container {
     display: flex;
@@ -10,15 +13,26 @@
 
 .flex-item {
     flex: 1 1;
-    
-    padding: 40px 60px 40px 70px;
+    /* padding: 40px 60px 40px 70px; */
     
 }
 
 .col-2 {
     justify-content: flex-end;
     border-left: solid rgb(202, 202, 202) 2px;
+    padding-left: 95px;
+    
 }
+.progress-box{
+    text-align: center;
+    text-align: left;
+    text-indent: 100px;
+    padding-right: 250px;
+    padding-left: 150px;
+ 
+    font-size: 19px;
+}
+
 
 .border-sp {
     background-color: rgb(66, 128, 66);
@@ -32,6 +46,7 @@
 .over-div {
     margin-bottom: 24px;
     width: 100%;
+    font-weight: bolder;
 }
 
 .header {
@@ -40,6 +55,8 @@
     align-items: center;
     height: 90px;
     color: rgb(139, 139, 139);
+    font-weight: bolder;
+    margin-bottom: 40px;
 }
 
 .name-header {
@@ -48,6 +65,7 @@
     margin-block: 0;
     margin-inline: 0;
     margin: 1em;
+   
 }
 
 .btn, .btn {
@@ -64,5 +82,25 @@
 .btn-help{
     left: 200px;
 }
+progress{
+    -webkit-appearance: none;
+   appearance: none;
+   width: 40%;
+   height: 10px;
+   float: right;
 
-
+}
+progress[value]::-webkit-progress-value {
+    box-shadow: none;
+    background-image: 
+         -webkit-linear-gradient(left,  rgb(66, 128, 66),  rgb(66, 128, 66));
+      border-radius: 22px;
+  }
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 22px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+strong{
+    margin:5px  ;
+}

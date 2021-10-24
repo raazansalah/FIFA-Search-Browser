@@ -25,15 +25,23 @@ export const PlayerProfile = () => {
             <div className="flex-container">
                 <div className="flex-item col-1">
                     <ApexChart />
+                    <div className = "progress-box">
+                    <p>Finishing  <progress  value={selectedPlayer.Finishing} max="100">  </progress></p>
+                    <p>Crossing  <progress  value={selectedPlayer.Crossing} max="100"> </progress></p>
+                    <p>HeadingAccuracy  <progress  value={selectedPlayer.HeadingAccuracy} max="100"> </progress></p>
+                    <p>ShortPassing  <progress  value={selectedPlayer.ShortPassing} max="100"> </progress></p>
+                    <p>Volleys  <progress  value={selectedPlayer.Volleys} max="100">  </progress></p>
+                    </div>
                 </div>
                 <div className="flex-item col-2">
                     <div className="over-div">
-                        <span className="border-sp">Overall{playerData[id - 1].Overall}</span>
-                        <span className="border-sp">Overall80</span>
+                        <span className="border-sp">Overall-{playerData[id - 1].Overall}</span>
+                        <span className="border-sp">Potential-80</span>
                     </div>
                     <div >
                         <p> Age <strong>{selectedPlayer.Age}</strong></p>
-                        <p>Height <strong>{selectedPlayer.Height} </strong></p>
+                        <p> Nationality <strong>{selectedPlayer.Nationality}</strong></p>
+                        <p>Height <strong>{selectedPlayer.Height} - {(parseInt(selectedPlayer.Height) *0.3048).toFixed(2)}m </strong></p>
                         <p>Weight <strong>{selectedPlayer.Weight} - {parseInt(parseInt(selectedPlayer.Weight) * 0.45359237)}Kg</strong></p>
                         <p>Wage <strong>{selectedPlayer.Wage} </strong></p>
                         <p>Value <strong>{selectedPlayer.Value} </strong></p>
@@ -46,7 +54,7 @@ export const PlayerProfile = () => {
                         <p>International Reputation <span><RatingView ratingValue={4} stars={4} /></span></p>
                         <p>Club  <strong>{selectedPlayer.Club}</strong> - Joind :<strong>{selectedPlayer.Joined}</strong></p>
                         <p>Contract Valid Until <strong>{selectedPlayer['Contract Valid Until']}</strong></p>
-   
+                        
                     </div>
 
                 </div>
