@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,281;1,300&display=swap');
 .profile-page {
     width: 100%;
-    margin-top: 4px;
+    
+    height: 100%;
     font-family: 'Raleway';
+    background-image: url("./images/profilebackground.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     
 }
 .flex-container {
@@ -71,14 +75,14 @@
     margin: 1em;
     transform: translateY(50%);
     border: none;
-    background-color: white;
+    background-color: transparent;
     color: rgb(139, 139, 139);
 }
 .btn-home{
-    left: 100px;
+    left: 200px;
 }
 .btn-help{
-    left: 200px;
+    left: 300px;
 }
 progress{
     -webkit-appearance: none;
