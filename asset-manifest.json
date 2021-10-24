@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FIFA-Search-Browser/static/css/main.02d71ed9.chunk.css",
+    "main.js": "/FIFA-Search-Browser/static/js/main.ddc6a465.chunk.js",
+    "main.js.map": "/FIFA-Search-Browser/static/js/main.ddc6a465.chunk.js.map",
+    "runtime-main.js": "/FIFA-Search-Browser/static/js/runtime-main.ddc16654.js",
+    "runtime-main.js.map": "/FIFA-Search-Browser/static/js/runtime-main.ddc16654.js.map",
+    "static/js/2.f31241d7.chunk.js": "/FIFA-Search-Browser/static/js/2.f31241d7.chunk.js",
+    "static/js/2.f31241d7.chunk.js.map": "/FIFA-Search-Browser/static/js/2.f31241d7.chunk.js.map",
+    "static/js/3.594770ff.chunk.js": "/FIFA-Search-Browser/static/js/3.594770ff.chunk.js",
+    "static/js/3.594770ff.chunk.js.map": "/FIFA-Search-Browser/static/js/3.594770ff.chunk.js.map",
+    "index.html": "/FIFA-Search-Browser/index.html",
+    "static/css/main.02d71ed9.chunk.css.map": "/FIFA-Search-Browser/static/css/main.02d71ed9.chunk.css.map",
+    "static/js/2.f31241d7.chunk.js.LICENSE.txt": "/FIFA-Search-Browser/static/js/2.f31241d7.chunk.js.LICENSE.txt",
+    "static/media/PlayerProfile.css": "/FIFA-Search-Browser/static/media/profilebackground.61da95d8.png",
+    "static/media/SearchBar.css": "/FIFA-Search-Browser/static/media/searchbackground.236bded4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddc16654.js",
+    "static/js/2.f31241d7.chunk.js",
+    "static/css/main.02d71ed9.chunk.css",
+    "static/js/main.ddc6a465.chunk.js"
+  ]
+}
